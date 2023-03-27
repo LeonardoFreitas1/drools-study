@@ -12,6 +12,7 @@ public class OrderDiscountService {
     @Autowired
     private KieContainer kieContainer;
 
+    // aaa
     public OrderDiscount getDiscount(OrderRequest orderRequest) {
         OrderDiscount orderDiscount = new OrderDiscount();
         KieSession kieSession = kieContainer.newKieSession();
